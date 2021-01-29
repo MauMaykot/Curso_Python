@@ -12,7 +12,7 @@ clicar.click()
 
 while True:
 
-    dados = driver.find_elements_by_xpath('//a[@class="livro"]')g
+    dados = driver.find_elements_by_xpath('//a[@class="livro"]')
 
     for dado in dados:
         
